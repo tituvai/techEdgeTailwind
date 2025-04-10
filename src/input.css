@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+
+@theme {
+
+    /* Container Part Start  */
+    --spacing-myContainer: 1290px; 
+
+     /* Container Part End  */
+
+     /* Colore Part Start  */
+
+     --color-headerC: #171A2B; 
+     --color-buttonC: #FF3B00; 
+
+      /* Colore Part End  */
+
+
+/* Font Family Part Start  */
+    --font-poppins: "Poppins", "sans-serif";
+    --font-manrope: "Manrope", "sans-serif";
+
+    /* Font Family Part End  */
+  }
+
+  
