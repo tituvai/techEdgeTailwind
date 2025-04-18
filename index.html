@@ -15,22 +15,24 @@
 
     <!-- All Css File Link Start -->
 
-    <link rel="stylesheet" href="src/fontawesome.min.css">
+    <link rel="stylesheet" href="src/all.min.css">
     <link rel="stylesheet" href="src/output.css">
 
     <!-- All Css File Link End -->
 </head>
 <body>
+
+
  <!-- Header Part Start     -->
 <div class=" py-4 bg-headerC">
     <div class="max-w-myContainer m-auto">
-        <div class="flex justify-between">
+        <div class="lg:flex justify-between">
             <div class="flex items-center">
-                <i class="fa-solid fa-envelope text-red-500 text-4xl pr-3"></i>
+                <i class="fa-solid fa-envelope text-red-500 text-xl pr-3"></i>
                 <h3 class="text-[18px] font-manrope text-white">tim.jennings@example.com</h3>
             </div>
             <div class="flex items-center">
-                <i class="fa-solid fa-location-dot text-red-500 text-4xl pr-3"></i>
+                <i class="fa-solid fa-location-dot text-red-500 text-xl pr-3"></i>
                 <h3 class="text-[18px] font-manrope text-white">2972 Westheimer Rd. Santa Ana, Illinois 85486 </h3>
 
             </div>
@@ -45,7 +47,7 @@
 
 <div class="py-10 bg-black">
     <div class="max-w-myContainer m-auto">
-        <div class="flex justify-between items-center">
+        <div class="lg:flex justify-between items-center">
             <div class="">
                 <a href="#">
                     <picture>
@@ -55,12 +57,12 @@
             </div>
             <div class="">
                 <ul>
-                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white" href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white" href="#">Services <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white" href="#">Projects <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white" href="#">Blog <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white" href="#">Page <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white" href="#">Contact <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white hover:text-red-500" href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white hover:text-red-500" href="#">Services <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white hover:text-red-500" href="#">Projects <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white hover:text-red-500" href="#">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white hover:text-red-500" href="#">Page <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li class="inline-block px-4"><a class="text-[18px] font-manrope font-medium leading-4 text-white hover:text-red-500" href="#">Contact <i class="fa-solid fa-angle-down"></i></a></li>
                 </ul>
             </div>
 
@@ -82,55 +84,868 @@
 
 <!-- Banner Part Start  -->
 
- <div class="bg-black">
-        <div class="flex justify-between relative">
-            <div class="">
-                <div class="max-w-myContainer">
-                    <h1 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos.</h1>
+ <div class="bg-[url(/src/images/hero.png)] py-[100px] bg-no-repeat bg-cover bg-center relative">
+        <div class="max-w-myContainer m-auto">
+            <div class="lg:flex justify-between">
+                <div class=" lg:w-[800px] z-10">
+                    <h3 class="text-[16px] font-medium font-poppins leading-4 tracking-latterPs text-white">It TechNOLOGY</h3> 
+                    <h1 class="py-7 text-[66.25px] font-poppins font-semibold text-white leading-20 tracking-wide">Empowering the   <span class="font-extralight">Technology is the</span> evolving field </h1>
+                    <p class=" lg:w-[500px] text-xl font-manrope text-white leading-7 font-extralight">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex </p>
+
+                    <div class="flex group mt-7">
+                        <a class="text-[18px] font-bold font-manrope text-white py-4 px-7 border-2 border-red-500  rounded-4xl group-hover:bg-buttonC group-hover:duration-700" href="#">Contact Us</a>
+                        <a href="#"><svg class="rounded-full border-2 border-red-500 group-hover:rotate-45 group-hover:bg-buttonC" width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.838 13.4025L13.4015 27.839L12.1641 26.6016L26.6006 12.165L27.838 13.4025Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.9755 12.7784C23.0654 15.6885 23.2466 20.6255 25.9755 23.3544L26.5942 23.9731L27.8316 22.7357L27.2129 22.1169C25.141 20.0451 25.0124 16.2164 27.2129 14.0159L27.8313 13.3975L26.5939 12.16L25.9755 12.7784Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.2182 14.0172C24.3081 16.9272 19.371 16.746 16.6422 14.0172L16.0234 13.3984L17.2609 12.161L17.8796 12.7797C19.9515 14.8517 23.7802 14.9803 25.9807 12.7798L26.5991 12.1614L27.8365 13.3988L27.2182 14.0172Z" fill="white"/>
+                            </svg></a>
+                    </div>
                 </div>
+                <div class="hidden lg:block absolute left-[400px] bottom-0 -skew-x-12">
+                    <picture>
+                        <img src="src/images/hero-shape.png" alt="hero-shape.png" class="h-[600px] w-[700px]">
+                    </picture>
+                </div>
+                
             </div>
-            <div class="absolute left-[300px] right-[550px]">
-                <picture>
-                    <img src="src/images/hero-shape.png" alt="hero-shape.png" class="h-[800px]">
-                </picture>
-            </div>
-            <div class="">
-                <picture>
-                    <img src="src/images/hero-img.png" alt="hero-img.png">
-                </picture>
-            </div>
-           
         </div>
  </div>
 <!-- Banner Part End  -->
 
 
 
-<!-- Navbar Part Start  -->
-<!-- Navbar Part End  -->
+<!-- Service  Part Start  -->
+
+<div class="py-[100px]">
+    <div class="max-w-myContainer m-auto">
+        <div class="text-center">
+            <h3 class="text-6xl font-semibold font-poppins text-shadow-black">Our Best Services</h3>
+            <p class="m-auto py-5 lg:w-[730px] text-lg leading-7 text-peraC font-manrope">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems</p>
+        </div>
+        <div class="lg:flex justify-between flex-wrap">
+            <div class="lg:w-[32%] p-9 bg-service rounded-xl group mt-9 hover:shadow-boxS hover:bg-white">
+                <picture>
+                    <img src="src/images/service (1).png" alt="service (1).png" class="group-hover:translate-x-32">
+                </picture>
+                <h4 class="text-2xl font-semibold font-poppins leading-9 text-shadow-black pt-7 hover:text-buttonC">Tech Fortress Solutions</h4>
+                <p class="text-lg font-manrope leading-7 text-peraC pr-8 py-5">Information Technology is a rapidly evolving field that encompasses the study and application</p>
+                <div class="relative ">
+                    <a class="text-lg font-bold font-manrope group-hover:text-buttonC" href="#">Read More</a>
+
+                <svg class="absolute top-0 left-24 group-hover:rotate-45" width="35" height="35" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                    </svg>
+                </div>
+            </div>
+
+
+            <div class="lg:w-[32%] p-9 bg-service rounded-xl group mt-9 hover:shadow-boxS hover:bg-white">
+                <picture>
+                    <img src="src/images/service (2).png" alt="service (2).png" class="group-hover:translate-x-32">
+                </picture>
+                <h4 class="text-2xl font-semibold font-poppins leading-9 text-shadow-black pt-7 hover:text-buttonC">Data Sphere Innovations</h4>
+                <p class="text-lg font-manrope leading-7 text-peraC pr-8 py-5">Information Technology is a rapidly evolving field that encompasses the study and application</p>
+                <div class="relative ">
+                    <a class="text-lg font-bold font-manrope group-hover:text-buttonC" href="#">Read More</a>
+
+                <svg class="absolute top-0 left-24 group-hover:rotate-45" width="35" height="35" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="lg:w-[32%] p-9 bg-service rounded-xl group mt-9 hover:shadow-boxS hover:bg-white">
+                <picture>
+                    <img src="src/images/service (3).png" alt="service (3).png" class="group-hover:translate-x-32">
+                </picture>
+                <h4 class="text-2xl font-semibold font-poppins leading-9 text-shadow-black pt-7 hover:text-buttonC">Cyber Pulse Security</h4>
+                <p class="text-lg font-manrope leading-7 text-peraC pr-8 py-5">Information Technology is a rapidly evolving field that encompasses the study and application</p>
+                <div class="relative ">
+                    <a class="text-lg font-bold font-manrope group-hover:text-buttonC" href="#">Read More</a>
+
+                <svg class="absolute top-0 left-24 group-hover:rotate-45" width="35" height="35" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="lg:w-[32%] p-9 bg-service rounded-xl group mt-9 hover:shadow-boxS hover:bg-white">
+                <picture>
+                    <img src="src/images/service (4).png" alt="service (4).png" class="group-hover:translate-x-32">
+                </picture>
+                <h4 class="text-2xl font-semibold font-poppins leading-9 text-shadow-black pt-7 hover:text-buttonC">Net Vantage Systems</h4>
+                <p class="text-lg font-manrope leading-7 text-peraC pr-8 py-5">Information Technology is a rapidly evolving field that encompasses the study and application</p>
+                <div class="relative ">
+                    <a class="text-lg font-bold font-manrope group-hover:text-buttonC" href="#">Read More</a>
+
+                <svg class="absolute top-0 left-24 group-hover:rotate-45" width="35" height="35" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="lg:w-[32%] p-9 bg-service rounded-xl group mt-9 hover:shadow-boxS hover:bg-white">
+                <picture>
+                    <img src="src/images/service (5).png" alt="service (5).png" class="group-hover:translate-x-32">
+                </picture>
+                <h4 class="text-2xl font-semibold font-poppins leading-9 text-shadow-black pt-7 hover:text-buttonC">Code Nova Technologies</h4>
+                <p class="text-lg font-manrope leading-7 text-peraC pr-8 py-5">Information Technology is a rapidly evolving field that encompasses the study and application</p>
+                <div class="relative ">
+                    <a class="text-lg font-bold font-manrope group-hover:text-buttonC" href="#">Read More</a>
+
+                <svg class="absolute top-0 left-24 group-hover:rotate-45" width="35" height="35" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                    <path class="group-hover:fill-buttonC" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="lg:w-[32%] bg-[url(/src/images/service.jpg)] bg-no-repeat bg-cover bg-center mt-9 rounded-xl">
+                <div class=" py-[30px] bg-black opacity-70 rounded-xl text-center">
+                    <div class="w-[100px] h-[100px] rounded-full bg-buttonC flex items-center justify-center m-auto">
+                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29.9414 23.4258L28.5352 29.3438C28.3594 30.2227 27.6562 30.8086 26.7773 30.8086C12.0117 30.75 0 18.7383 0 3.97266C0 3.09375 0.527344 2.39062 1.40625 2.21484L7.32422 0.808594C8.14453 0.632812 9.02344 1.10156 9.375 1.86328L12.1289 8.25C12.4219 9.01172 12.2461 9.89062 11.6016 10.3594L8.4375 12.9375C10.4297 16.9805 13.7109 20.2617 17.8125 22.2539L20.3906 19.0898C20.8594 18.5039 21.7383 18.2695 22.5 18.5625L28.8867 21.3164C29.6484 21.7266 30.1172 22.6055 29.9414 23.4258Z" fill="white"/>
+                            </svg>
+                    </div>
+                        <h3 class="text-3xl font-medium font-poppins leading-10 text-white py-5">Need Help?</h3>
+                        <p class="text-lg font-medium font-poppins leading-8 text-white">For fast service</p>
+                        <h6 class="text-3xl font-medium font-poppins leading-10 text-white py-5">(+888) 123 456 765</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service  Part End  -->
 
 
 
-<!-- Navbar Part Start  -->
-<!-- Navbar Part End  -->
+<!-- Digally Part Start  -->
+
+<div class="py-[100px]">
+    <div class="max-w-myContainer m-auto">
+        <div class="">
+            <h3 class="lg:w-[788px] text-6xl font-semibold font-poppins leading-17">Digitally Driven Diligently  IT Excellence a Step</h3>
+        </div>
+        <div class="lg:flex justify-between pt-10">
+            <div class="">
+                <picture>
+                    <img src="src/images/diglly.jpg" alt="diglly.jpg" class="rounded-xl">
+                </picture>
+            </div>
+            <div class="lg:w-[500px]">
+                <p class="text-lg font-manrope leading-7 text-peraC">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems</p>
+
+                <div class="w-[130px] h-[130px] rounded-full border-buttonC border-2 text-center bg-service group hover:bg-red-400 mt-7">
+                    <svg class="m-auto mt-3" width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                        <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                        <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                        </svg>
+
+                        <h3 class="text-lg font-bold font-poppins leading-7 group-hover:text-white px-4">Explore More</h3>
+                </div>
+            </div>
+            <div class="lg:w-[233px] text-center bg-service pt-11 rounded-xl">
+                <picture>
+                    <img src="src/images/digitayll.png" alt="digitayll.png" class="m-auto">
+                </picture>
+                <h3 class="text-[45px] font-bold font-poppins text-black leading-14 py-5">2,000+</h3>
+                <p class="text-lg font-manrope leading-7 text-peraC">Employees Working</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Digally Part End  -->
 
 
 
-<!-- Navbar Part Start  -->
-<!-- Navbar Part End  -->
+<!-- Project Part Start  -->
+
+<div class="py-[100px]">
+    <div class="max-w-myContainer m-auto">
+        <div class="lg:w-[660px] m-auto text-center">
+            <h3 class="text-6xl font-semibold font-poppins text-shadow-black">Our Latest Project</h3>
+            <p class="py-6 text-lg font-manrope text-peraC leading-7">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems</p>
+        </div>
+        <div class="lg:flex justify-between pt-10">
+         <div class="lg:w-[32%] bg-[url(/src/images/project-1.jpg)] bg-no-repeat bg-cover bg-center rounded-2xl h-[486px] group">
+            <div class="bg-gradient-to-b from-white   via-red-900 via-60%  to-red-950 to-100% pt-[300px] pb-[100px] opacity-70 rounded-2xl hidden group-hover:block">
+                <h3 class="text-2xl font-semibold font-poppins leading-9 text-white z-20 text-center border-b-2 border-white pb-3 mx-5">Diligently  IT Excellence</h3>
+                <p class="text-lg leading-7 font-manrope text-white text-center pt-2">Lorem Ipsum is simply dummy</p>
+            </div>
+         </div>  
+
+         <div class="lg:w-[32%] bg-[url(/src/images/project-2.jpg)] bg-no-repeat bg-cover bg-center rounded-2xl h-[486px] group">
+            <div class="bg-gradient-to-b from-white   via-red-900 via-60%  to-red-950 to-100% pt-[300px] pb-[100px] opacity-70 rounded-2xl hidden group-hover:block">
+                <h3 class="text-2xl font-semibold font-poppins leading-9 text-white z-20 text-center border-b-2 border-white pb-3 mx-5">Diligently  IT Excellence</h3>
+                <p class="text-lg leading-7 font-manrope text-white text-center pt-2">Lorem Ipsum is simply dummy</p>
+            </div>
+         </div> 
+
+         <div class="lg:w-[32%] bg-[url(/src/images/project-3.jpg)] bg-no-repeat bg-cover bg-center rounded-2xl h-[486px] group">
+            <div class="bg-gradient-to-b from-white   via-red-900 via-60%  to-red-950 to-100% pt-[300px] pb-[100px] opacity-70 rounded-2xl hidden group-hover:block">
+                <h3 class="text-2xl font-semibold font-poppins leading-9 text-white z-20 text-center border-b-2 border-white pb-3 mx-5">Diligently  IT Excellence</h3>
+                <p class="text-lg leading-7 font-manrope text-white text-center pt-2">Lorem Ipsum is simply dummy</p>
+            </div>
+         </div> 
+         
+              
+              
+        </div>
+    </div>
+</div>
+<!-- Project Part End  -->
 
 
-<!-- Navbar Part Start  -->
-<!-- Navbar Part End  -->
+<!-- Plan Part Start  -->
+
+<div class="pt-[100px] pb-[200px] bg-service relative">
+<div class="max-w-myContainer m-auto">
+   <div class="lg:flex justify-between">
+    <div class="lg:w-[32%] pt-32">
+        <h3 class="text-6xl font-semibold font-poppins leading-17 text-shadow-black">Our Pricing Plan</h3>
+        <p class="text-lg leading-7 font-manrope text-peraC">Information Technology is a rapidly evolving field that encompasses the study and application</p>
+
+       <div class="flex pt-5">
+        <div class="w-[100px] border-2 border-red-400 py-3 rounded-bl-4xl rounded-tl-4xl text-center bg-red-400">
+            <a class="text-lg font-poppins font-medium text-white" href="#">Monthly</a>
+        </div>
+        <div class="w-[100px] border-2 border-red-400 py-3 rounded-br-4xl rounded-tr-4xl text-center">
+            <a class="text-lg font-poppins font-medium" href="#">Yearly</a>
+        </div>
+       </div>
+    </div>
+    <div class="lg:w-[32%] bg-white rounded-3xl">
+        <div class=" bg-red-50 py-9 rounded-b-full mx-3">
+            <h3 class="text-3xl font-medium font-poppins text-shadow-black text-center">Basic</h3>
+            <h4 class="text-6xl font-semibold font-poppins text-shadow-black pl-28">$19</h4>
+            <p class="text-lg font-manrope text-peraC pl-52 -mt-5">/Month</p>
+        </div>
+
+        <div class="flex justify-between px-9 pt-9">
+            <div class="">
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">Cyber Security Sentinel</h3>
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">Software Solutions Pro</h3>
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">IT Infrastructure Innovations</h3>
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">Mobile Tech Mastery</h3>
+            </div>
+            <div class="">
+                <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#FF3B00"/>
+                    </svg>
+                    <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#FF3B00"/>
+                        </svg>
+                        <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.2" d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#05091D"/>
+                            </svg>
+                            <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.2" d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#05091D"/>
+                                </svg>
+            </div>
+        </div>
+       <div class="flex p-14 pt-6 group">
+        <div class="py-3 px-9 border-2 border-red-400 rounded-4xl group-hover:bg-red-400 group-hover:text-white">
+            <a class="text-lg font-bold font-manrope text-shadow-black" href="#">Get Started Now</a>    
+        </div>
+       <div class="w-[55px] h-[55px] rounded-full border-2 border-red-400 flex justify-center items-center group-hover:bg-red-400 group-hover:rotate-45">
+        <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+            <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+            <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+            </svg>
+       </div>
+       </div>
+        
+    </div>
+
+    <div class="lg:w-[32%] bg-white rounded-3xl">
+        <div class=" bg-red-50 py-9 rounded-b-full mx-3">
+            <h3 class="text-3xl font-medium font-poppins text-shadow-black text-center">Advanced</h3>
+            <h4 class="text-6xl font-semibold font-poppins text-shadow-black pl-28">$29</h4>
+            <p class="text-lg font-manrope text-peraC pl-52 -mt-5">/Month</p>
+        </div>
+
+        <div class="flex justify-between px-9 pt-9">
+            <div class="">
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">Cyber Security Sentinel</h3>
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">Software Solutions Pro</h3>
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">IT Infrastructure Innovations</h3>
+                <h3 class="text-lg leading-7 font-manrope text-peraC py-1">Mobile Tech Mastery</h3>
+            </div>
+            <div class="">
+                <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#FF3B00"/>
+                    </svg>
+                    <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#FF3B00"/>
+                        </svg>
+                        <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#FF3B00"/>
+                            </svg>
+                            <svg class="my-4" width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9.25C0 4.29297 4.00781 0.25 9 0.25C13.957 0.25 18 4.29297 18 9.25C18 14.2422 13.957 18.25 9 18.25C4.00781 18.25 0 14.2422 0 9.25ZM13.043 7.70312C13.4297 7.31641 13.4297 6.71875 13.043 6.33203C12.6562 5.94531 12.0586 5.94531 11.6719 6.33203L7.875 10.1289L6.29297 8.58203C5.90625 8.19531 5.30859 8.19531 4.92188 8.58203C4.53516 8.96875 4.53516 9.56641 4.92188 9.95312L7.17188 12.2031C7.55859 12.5898 8.15625 12.5898 8.54297 12.2031L13.043 7.70312Z" fill="#FF3B00"/>
+                                </svg>
+            </div>
+        </div>
+       <div class="flex p-14 pt-6 group">
+        <div class="py-3 px-9 border-2 border-red-400 rounded-4xl group-hover:bg-red-400 group-hover:text-white">
+            <a class="text-lg font-bold font-manrope text-shadow-black" href="#">Get Started Now</a>    
+        </div>
+       <div class="w-[55px] h-[55px] rounded-full border-2 border-red-400 flex justify-center items-center group-hover:bg-red-400 group-hover:rotate-45">
+        <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+            <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+            <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+            </svg>
+       </div>
+       </div>
+        
+    </div>
+   </div>
+</div>
+<!-- scroll Part Start  -->
+
+<div class=" bg-red-500 absolute left-0 bottom-0 w-[100%] py-3">
+    <marquee behavior="" direction="left">
+        
+       <div class=" flex justify-center items-center">
+        <h3 class="text-4xl font-semibold font-poppins text-white">Mobile Tech Mastery</h3>
+        <picture>
+            <img src="src/images/mqaer (1).png" alt="mqaer (1).png">
+        </picture>
+        <h3 class="text-4xl font-semibold font-poppins text-white">Software Solutions Pro</h3>
+        <picture>
+            <img src="src/images/mqaer (2).png" alt="mqaer (2).png">
+        </picture>
+        <h3 class="text-4xl font-semibold font-poppins text-white">Tech Savvy saolution</h3>
+       </div>
+    </marquee>
+   
+</div>
+<!-- scroll Part End  -->
+</div>
+
+<!-- Plan Part End  -->
 
 
-<!-- Navbar Part Start  -->
-<!-- Navbar Part End  -->
 
 
 
-<!-- Navbar Part Start  -->
-<!-- Navbar Part End  -->
+
+<!-- Contact Part Start  -->
+
+<div class="py-[50px] bg-black">
+<div class="max-w-myContainer m-auto">
+    <div class="lg:flex justify-between">
+        <div class="lg:w-[520px] text-white pt-20">
+            <h3 class="text-6xl font-poppins font-semibold">Contact Us</h3>
+            <p class="text-lg font-manrope leading-7 py-4">Information Technology is a evolving field tencompasses the study application  computing Information Technology is a evolving field that encompasses </p>
+            <div class="flex items-center">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3 class="text-lg font-manrope pl-2">Address</h3>
+            </div>
+            <h3 class="text-2xl font-semibold font-poppins py-4">2118 Thornridge Cir. Syracuse</h3>
+            <div class="flex items-center">
+                <i class="fa-solid fa-envelope"></i>
+                <h3 class="text-lg font-manrope pl-2">Email</h3>
+            </div>
+            <h3 class="text-2xl font-semibold font-poppins pt-4">jessica.hanson@example.com</h3>
+
+        </div>
+
+        <div class="lg:w-[630px] p-10 bg-inputB rounded-3xl text-white">
+           <div class="lg:flex">
+            <div class="w-1/2">
+                <label class="block text-xl font-poppins font-semibold pb-2" for="">Name</label>
+            <input class="lg:w-[250px] border-2 border-white py-3 pl-5 rounded-3xl text-lg font-manrope" type="text" placeholder="Your Name">
+            </div>
+            <div class="w-1/2">
+                <label class="block text-xl font-poppins font-semibold pb-2" for="">Email</label>
+            <input class="lg:w-[250px] border-2 border-white py-3 pl-5 rounded-3xl text-lg font-manrope" type="text" placeholder="Email">
+            </div>
+           </div>
+
+            <label class="block text-xl font-poppins font-semibold pt-5 pb-2" for="">Option</label>
+            <input class="lg:w-[520px] border-2 border-white py-4 pl-5 rounded-3xl text-lg font-manrope" type="text" placeholder="Chose An Option">
+
+            <label class="block text-xl font-poppins font-semibold pt-5 pb-2" for="">Message</label>
+            <textarea class="lg:w-[520px] h-[100px] border-2 border-white rounded-3xl pl-5 pt-3 font-manrope text-lg" name="" id="" placeholder="Type Here"></textarea>
+            
+            <div class="lg:w-[520px] mt-5 flex items-center justify-center rounded-3xl py-3  bg-buttonC hover:bg-white group">
+                <a class="text-lg font-manrope font-bold text-white pr-2 group-hover:text-black" href="#">Sent Now</a>
+                <a href="#"><svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#ffffff"/>
+                    <path class="group-hover:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#ffffff"/>
+                    <path class="group-hover:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#ffffff"/>
+                    </svg></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- Contact Part End  -->
+
+
+<!-- Work Part Start  -->
+
+<div class="py-[100px]">
+    <div class="max-w-myContainer m-auto">
+        <div class="lg:w-[697px] m-auto text-center">
+            <h3 class="text-6xl font-semibold font-poppins text-shadow-black">How We Work</h3>
+            <p class="text-lg leading-7 font-manrope text-peraC py-3">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems</p>
+        </div>
+        <div class="lg:flex justify-between pt-14 relative">
+           <div class="text-center">
+            <div class="relative">
+                <picture>
+                    <img src="src/images/work.png" alt="work.png" class="m-auto pb-4">
+                </picture>
+                <div class="w-[50px] h-[50px] rounded-full bg-red-500 flex items-center justify-center absolute -top-5 left-[50%] translate-x-[-50%]">
+                    <h3 class="text-xl text-white font-bold">01</h3>
+                </div>
+            </div>
+            
+            <p class="text-lg leading-7 font-manrope text-peraC">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve </p>
+           </div>
+
+
+           <div class="text-center">
+            <div class="relative">
+                <picture>
+                    <img src="src/images/work-1.png" alt="work-1.png" class="m-auto pb-4">
+                </picture>
+                <div class="w-[50px] h-[50px] rounded-full bg-red-500 flex items-center justify-center absolute -top-5 left-[50%] translate-x-[-50%]">
+                    <h3 class="text-xl text-white font-bold">01</h3>
+                </div>
+            </div>
+            
+            <p class="text-lg leading-7 font-manrope text-peraC">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve </p>
+           </div>
+
+           <div class="text-center">
+            <div class="relative">
+                <picture>
+                    <img src="src/images/work-2.png" alt="work-2.png" class="m-auto pb-4">
+                </picture>
+                <div class="w-[50px] h-[50px] rounded-full bg-red-500 flex items-center justify-center absolute -top-5 left-[50%] translate-x-[-50%]">
+                    <h3 class="text-xl text-white font-bold">01</h3>
+                </div>
+            </div>
+            
+            <p class="text-lg leading-7 font-manrope text-peraC">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve </p>
+           </div>
+           <div class="absolute top-24 left-72">
+            <picture>
+                <img src="src/images/Arrow 1.png" alt="Arrow 1.png">
+            </picture>
+           </div>
+           <div class="absolute top-28 right-72">
+            <picture>
+                <img src="src/images/Arrow 2.png" alt="Arrow 2.png">
+            </picture>
+           </div>
+        </div>
+    </div>
+</div>
+
+<!-- Work Part End  -->
+
+
+<!-- Arlenc Part Start  -->
+
+<div class="py-[100px]">
+    <div class="max-w-myContainer m-auto">
+        <div class="lg:flex justify-between items-center">
+            <div class="lg:w-[630px]">
+                <h3 class="text-6xl font-semibold font-poppins text-shadow-black">Arlene McCoy</h3>
+                <p class="font-manrope text-lg text-black py-5">FOUNDER</p>
+                <p class="font-manrope text-lg text-peraC leading-7">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve Information Technology is a rapidly evolving field that encompasses </p>
+
+                <div class="lg:w-[500px] flex justify-between pt-9">
+                        <picture>
+                            <img src="src/images/sm-1.jpg" alt="sm-1.jpg" class="rounded-xl hover:border-2 hover:border-red-400">
+                        </picture>
+                        <picture>
+                            <img src="src/images/sm-2.jpg" alt="sm-2.jpg" class="rounded-xl hover:border-2 hover:border-red-400">
+                        </picture>
+                        <picture>
+                            <img src="src/images/sm-3.jpg" alt="sm-3.jpg" class="rounded-xl hover:border-2 hover:border-red-400">
+                        </picture>
+                        <picture>
+                            <img src="src/images/sm-4.jpg" alt="sm-4.jpg" class="rounded-xl hover:border-2 hover:border-red-400">
+                        </picture>
+                        <picture>
+                            <img src="src/images/sm-5.jpg" alt="sm-5.jpg" class="rounded-xl hover:border-2 hover:border-red-400">
+                        </picture> 
+                </div>
+
+                <div class="flex pt-9 group">
+                    <div class="py-3 px-9 border-2 border-red-400 rounded-4xl group-hover:bg-red-400 group-hover:text-white">
+                        <a class="text-lg font-bold font-manrope text-shadow-black" href="#">View All Members</a>    
+                    </div>
+                   <div class="w-[55px] h-[55px] rounded-full border-2 border-red-400 flex justify-center items-center group-hover:bg-red-400 group-hover:rotate-45">
+                    <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                        <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                        <path class="group-hover:fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                        </svg>
+                   </div>
+                   </div>
+
+            </div>
+
+            <div class="">
+                <picture>
+                    <img src="src/images/arlev.png" alt="arlev.png">
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Arlenc Part End  -->
+
+
+<!-- Softwaer Part Start  -->
+
+<div class="py-[100px]">
+    <div class="max-w-myContainer m-auto">
+        <div class="lg:flex justify-between flex-wrap">
+            <div class="">
+                <div class="h-[200px] lg:w-[400px] shadow-boxS bg-white rounded-xl flex justify-center items-center hover:border-2 hover:border-red-400">
+                    <picture>
+                        <img src="src/images/fotterLogo.png" alt="fotterLogo.png">
+                    </picture>
+                </div>
+               
+            </div>
+            <div class="lg:w-[350px] h-[343px] hover:border-2 hover:border-red-400 rounded-xl">
+                <picture>
+                    <img src="src/images/softwaer-1.jpg" alt="softwaer-1.jpg" class="rounded-xl w-100 img-fluid">
+                </picture>
+
+                
+            </div>
+            <div class="">
+                <div class="lg:w-[500px] h-[343px] p-7 bg-white shadow-boxS rounded-xl relative hover:border-2 hover:border-red-400">
+                    <div class="flex justify-between pt-5">
+                        <div class="">
+                            <h3 class="text-xl font-semibold font-poppins text-shadow-black">Jenny Wilson</h3>
+                        </div>
+                        <div class="">
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-yellow-500"></i>
+                            <i class="fa-solid fa-star text-service"></i>
+                        </div>
+                    </div>
+                    <div class="absolute left-1/2 top-1/2 -translate-1/2">
+                        <picture>
+                            <img src="src/images/softPosition.png" alt="softPosition.png">
+                        </picture>
+                    </div>
+                    <p class="text-2xl leading-9 font-manrope pt-16">Information Technology is rapidly evolving field that encompasses the study and application </p>
+                </div>
+
+            </div>
+
+
+            <div class="lg:w-[400px] bg-white p-7 -mt-16 rounded-xl shadow-boxS hover:border-2 hover:border-red-400">
+                <div class="flex justify-between items-center">
+                    <picture>
+                        <img src="src/images/softSvg.png" alt="softSvg.png">
+                    </picture>
+                    <h3 class="text-xl font-semibold font-poppins text-shadow-black">Tomorrow Just Informs</h3>
+                </div>
+                <p class="text-lg leading-7 font-manrope pt-5">Information Technology is a evolving field that encompasses the study application of computing technology </p>
+                <picture>
+                    <img src="src/images/softwaer-2.png" alt="softwaer-2.png">
+                </picture>
+            </div>
+
+            <div class="lg:w-[850px] p-7 shadow-boxS mt-4 rounded-xl bg-white hover:border-2 hover:border-red-400">
+                <div class="flex justify-between items-center">
+                    <div class="">
+                        <h3 class="text-3xl font-medium font-poppins text-shadow-black">Software Solutions Pro</h3>
+                        <p class="text-lg leading-7 font-manrope text-peraC py-6">Information Technology is a evolving field that encompasses the study application of computing technology </p>
+
+                        <div class="flex justify-between">
+                            <div class="text-center">
+                                <h3 class="text-5xl font-bold font-poppins text-namberC">465</h3>
+                                <p class="text-lg font-manrope text-peraC">Team member</p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-5xl font-bold font-poppins text-namberC">65</h3>
+                                <p class="text-lg font-manrope text-peraC">Winning award</p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-5xl font-bold font-poppins text-namberC">20+</h3>
+                                <p class="text-lg font-manrope text-peraC">Complete project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <picture>
+                            <img src="src/images/softwaer-3.png" alt="softwaer-3.png" class="w-100 img-fluid">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Softwaer Part End  -->
+
+<!-- Blog Part Start  -->
+
+<div class="pt-[100px] pb-[400px] relative">
+    <div class="max-w-myContainer m-auto">
+        <div class="lg:w-[697px] m-auto text-center">
+            <h3 class="text-6xl font-semibold font-poppins text-shadow-black">Blog And News</h3>
+            <p class="text-lg leading-7 font-manrope text-peraC py-5">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems</p>
+        </div>
+        <div class="lg:flex justify-between pt-10">
+            <div class="lg:w-[32%] relative">
+                <picture>
+                    <img src="src/images/blog.jpg" alt="blog.jpg" class="rounded-xl">
+                </picture>
+
+                <div class="lg:w-[370px] bg-white p-8 rounded-xl absolute -bottom-2/4 left-1/2 -translate-1/2 shadow-lg">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-user text-[16px] text-red-500 pr-3"></i>
+                        <h3 class="text-[16px] font-manrope text-peraC pr-12">By admin</h3>
+                        <i class="fa-solid fa-calendar-days text-[16px] text-red-500 pr-3"></i>
+                        <h3 class="text-[16px] font-manrope text-peraC">20, june 2024</h3>
+                    </div>
+                    <h3 class="text-xl leading-9 font-semibold font-poppins text-shadow-black py-7">Driving Success Through the Technological Expertise</h3>
+
+                    <div class="flex">
+                        <a class="text-lg font-bold font-manrope text-black" href="#">Read More</a>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-[32%] relative">
+                <picture>
+                    <img src="src/images/blog-1.jpg" alt="blog-1.jpg" class="rounded-xl">
+                </picture>
+
+                <div class="lg:w-[370px] bg-white p-8 rounded-xl absolute -bottom-2/4 left-1/2 -translate-1/2 shadow-lg">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-user text-[16px] text-red-500 pr-3"></i>
+                        <h3 class="text-[16px] font-manrope text-peraC pr-12">By admin</h3>
+                        <i class="fa-solid fa-calendar-days text-[16px] text-red-500 pr-3"></i>
+                        <h3 class="text-[16px] font-manrope text-peraC">20, june 2024</h3>
+                    </div>
+                    <h3 class="text-xl leading-9 font-semibold font-poppins text-shadow-black py-7">Through the Technological Not Just Informs</h3>
+
+                    <div class="flex">
+                        <a class="text-lg font-bold font-manrope text-black" href="#">Read More</a>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-[32%] relative">
+                <picture>
+                    <img src="src/images/blog-2.jpg" alt="blog-2.jpg" class="rounded-xl">
+                </picture>
+
+                <div class="lg:w-[370px] bg-white p-8 rounded-xl absolute -bottom-2/4 left-1/2 -translate-1/2 shadow-lg">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-user text-[16px] text-red-500 pr-3"></i>
+                        <h3 class="text-[16px] font-manrope text-peraC pr-12">By admin</h3>
+                        <i class="fa-solid fa-calendar-days text-[16px] text-red-500 pr-3"></i>
+                        <h3 class="text-[16px] font-manrope text-peraC">20, june 2024</h3>
+                    </div>
+                    <h3 class="text-xl leading-9 font-semibold font-poppins text-shadow-black py-7">Pioneering Technology for  IT That Transforms</h3>
+
+                    <div class="flex">
+                        <a class="text-lg font-bold font-manrope text-black" href="#">Read More</a>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#05091D"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#05091D"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#05091D"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="lg:w-[1290px] py-20 px-14 rounded-4xl bg-red-500 lg:flex justify-between  absolute -bottom-1/3 left-1/2 -translate-1/2">
+        <div class="lg:w-[500px]">
+            <h3 class="lg:text-6xl leading-18 font-semibold font-poppins text-white">Technology is rapidly evolving to the field</h3>
+        </div>
+        <div class="">
+            <div class="flex text-white items-center">
+                <i class="fa-solid fa-angles-right"></i>
+            <h3 class="text-lg font-medium font-poppins pl-4">TechSavvy Solutions</h3>
+            </div>
+            <div class="flex text-white items-center pt-4">
+                <i class="fa-solid fa-angles-right"></i>
+            <h3 class="text-lg font-medium font-poppins pl-4">NetworkNinja Services</h3>
+            </div>
+            <div class="flex pt-9 group">
+                <div class="py-3 px-9  rounded-4xl bg-red-400 group-hover:bg-white ">
+                    <a class="text-lg font-bold font-manrope text-white group-hover:text-black" href="#">Contact Us</a>    
+                </div>
+               <div class="w-[55px] h-[55px] rounded-full flex justify-center items-center bg-red-400 group-hover:bg-white group-hover:rotate-45">
+                <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M20.7242 10.0538L9.89683 20.8812L8.96875 19.9531L19.7962 9.12572L20.7242 10.0538Z" fill="#ffffff"/>
+                    <path class="group-hover:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M19.3254 9.5887C17.1428 11.7712 17.2787 15.474 19.3254 17.5207L19.7894 17.9847L20.7175 17.0566L20.2534 16.5926C18.6995 15.0387 18.6031 12.1672 20.2534 10.5168L20.7172 10.053L19.7892 9.12491L19.3254 9.5887Z" fill="#ffffff"/>
+                    <path class="group-hover:fill-black" fill-rule="evenodd" clip-rule="evenodd" d="M20.2554 10.5109C18.0729 12.6935 14.3701 12.5576 12.3234 10.5109L11.8594 10.0469L12.7875 9.1188L13.2515 9.58284C14.8055 11.1368 17.677 11.2332 19.3273 9.58287L19.7911 9.11908L20.7192 10.0472L20.2554 10.5109Z" fill="#ffffff"/>
+                    </svg>
+               </div>
+               </div>
+        </div>
+        <div class="">
+            <div class="flex text-white items-center">
+                <i class="fa-solid fa-angles-right"></i>
+            <h3 class="text-lg font-medium font-poppins pl-4">DataDriven Dynamics</h3>
+            </div>
+            <div class="flex text-white items-center pt-4">
+                <i class="fa-solid fa-angles-right"></i>
+            <h3 class="text-lg font-medium font-poppins pl-4">CloudCraft Creations</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Blog Part End  -->
+
+
+
+<!-- Fotter Part Start  -->
+
+<div class="pt-[200px] pb-[50px] bg-red-100">
+<div class="max-w-myContainer m-auto">
+    <div class="lg:flex justify-between items-center pt-14 pb-4 border-b-2 border-bordeC">
+        <div class="">
+            <a href="#">
+                <picture>
+                    <img src="src/images/fotterLogo.png" alt="fotterLogo.png" class="w-[187px]">
+                </picture>
+            </a>
+        </div>
+        <div class="">
+            <a href="#"><i class="fa-brands fa-facebook-f px-5 text-[16px] text-black"></i></a>
+            <a href="#"><i class="fa-solid fa-x px-5 text-[16px] text-black"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in px-5 text-[16px] text-black"></i></a>
+            <a href="#"><i class="fa-solid fa-p px-5 text-[16px] text-black"></i></a>
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="lg:flex justify-between py-20 border-b-2 border-bordeC">
+        <div class="">
+            <h3 class="text-2xl font-semibold font-poppins text-shadow-black">Contact</h3>
+            <h4 class="text-lg font-manrope text-peraC pt-5 pb-3">Email</h4>
+            <h3 class="text-lg font-medium font-poppins text-shadow-black">willie.jennings@example.com</h3>
+            <h4 class="text-lg font-manrope text-peraC pt-5 pb-3">Phone</h4>
+            <h3 class="text-lg font-medium font-poppins text-shadow-black">(307) 555-0133</h3>
+            <h4 class="text-lg font-manrope text-peraC pt-5 pb-3">Location</h4>
+            <h3 class="text-lg font-medium font-poppins text-shadow-black">2118 Thornridge Cir. Syracuse</h3>
+        </div>
+        <div class="">
+            <h3 class="text-2xl font-semibold font-poppins text-shadow-black">Service</h3>
+            <div class="flex items-center py-2">
+                <input class="text-peraC" type="radio">
+                <h4 class="text-lg font-manrope text-peraC pl-2">Tech Savvy Solutions</h4>
+            </div>
+            <div class="flex items-center py-2">
+                <input class="text-peraC" type="radio">
+                <h4 class="text-lg font-manrope text-peraC pl-2">Data Driven Dynamics</h4>
+            </div>
+            <div class="flex items-center py-2">
+                <input class="text-peraC" type="radio">
+                <h4 class="text-lg font-manrope text-peraC pl-2">Network Ninja Services</h4>
+            </div>
+            <div class="flex items-center py-2">
+                <input class="text-peraC" type="radio">
+                <h4 class="text-lg font-manrope text-peraC pl-2">Cloud Craft Creations</h4>
+            </div>
+            <div class="flex items-center py-2">
+                <input class="text-peraC" type="radio">
+                <h4 class="text-lg font-manrope text-peraC pl-2">Cyber Security Sentinel</h4>
+            </div>
+        </div>
+
+        <div class="">
+            <h3 class="text-2xl font-semibold font-poppins text-shadow-black">Follow</h3>
+            <p class="pt-7 lg:w-[300px] text-[15px] font-manrope leading-5 text-peraC">Information Technology is a rapidly evolving field that a encompasses latest the study</p>
+
+          <div class="lg:w-[250px] pt-10 flex items-center border-b-2 border-bordeC">
+            <input class="text-lg font-manrope text-peraC pl-3 outline-none" type="text" placeholder="Your email...">
+            <a href="#">
+                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.9727 1.76172L13.2227 13.1094C13.1953 13.3828 13.0312 13.6289 12.7852 13.7656C12.6484 13.8203 12.5117 13.875 12.3477 13.875C12.2383 13.875 12.1289 13.8477 12.0195 13.793L8.68359 12.3984L7.28906 14.4766C7.17969 14.668 6.98828 14.75 6.79688 14.75C6.49609 14.75 6.25 14.5039 6.25 14.2031V11.5781C6.25 11.3594 6.30469 11.168 6.41406 11.0312L12.375 3.375L4.33594 10.6211L1.51953 9.44531C1.21875 9.30859 1 9.03516 1 8.67969C0.972656 8.29688 1.13672 8.02344 1.4375 7.85938L13.6875 0.886719C13.9609 0.722656 14.3438 0.722656 14.6172 0.914062C14.8906 1.10547 15.0273 1.43359 14.9727 1.76172Z" fill="#FF3B00"/>
+                    </svg>
+            </a>
+          </div>
+
+
+          <div class="flex">
+            <div class="w-[40px] h-[40px] rounded-full border-2 border-bordeC flex justify-center items-center mr-5 mt-5">
+                <a href="#"><i class="fa-brands fa-facebook-f px-5 text-[16px] text-black "></i></a>
+            </div>
+            <div class="w-[40px] h-[40px] rounded-full border-2 border-bordeC flex justify-center items-center mr-5 mt-5">
+                <a href="#"><i class="fa-solid fa-x px-5 text-[16px] text-black"></i></a>
+            </div>
+            <div class="w-[40px] h-[40px] rounded-full border-2 border-bordeC flex justify-center items-center mr-5 mt-5">
+                <a href="#"><i class="fa-brands fa-linkedin-in px-5 text-[16px] text-black"></i></a>
+            </div>
+            <div class="w-[40px] h-[40px] rounded-full border-2 border-bordeC flex justify-center items-center mt-5">
+                <a href="#"><i class="fa-solid fa-p px-5 text-[16px] text-black "></i></a>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="lg:flex justify-between items-center pt-6">
+        <div class="">
+            <h3 class="text-lg font-manrope text-peraC">© Yoursitename  2024 | All Rights Reserved</h3>
+        </div>
+        <div class="flex">
+            <h3 class="text-lg font-manrope text-peraC pr-10">Terms & Condition</h3>
+            <h3 class="text-lg font-manrope text-peraC pr-10">Privacy Policy</h3>
+            <h3 class="text-lg font-manrope text-peraC">Contact Us</h3>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Fotter Part End  -->
+
+
 
 
 
